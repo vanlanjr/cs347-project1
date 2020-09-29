@@ -1,3 +1,21 @@
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#logo-header {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 header {
   font-family: sans-serif;
 }
