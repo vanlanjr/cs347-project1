@@ -1,0 +1,41 @@
+#contacts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  font-family: sans-serif;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  gap: 10px 5px;
+}
+
+label {
+  justify-self: end;
+}
+
+#submit {
+  grid-column: 2;
+  height: 3em;
+  /* justify-self: start; */
+}
+
+#message {
+  height: 300px;
+}
+
+@media (max-width: 600px) {
+  #contacts {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  #submit {
+    grid-column: 1;
+  }
+
+  label:not(:first-child), #submit {
+    margin-top: 10px;
+  }
+
+  label {
+    justify-self: start;
+  }
+}
