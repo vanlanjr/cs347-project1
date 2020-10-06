@@ -65,6 +65,10 @@ nav > ul > li > a:active {
   display: none;
 }
 
+main {
+  min-height: 100vh;
+}
+
 footer {
   background-color: rgb(128, 243, 172);
   height: 300px;
