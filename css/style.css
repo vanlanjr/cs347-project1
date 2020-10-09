@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  font-family: sans-serif;
   /* margin: 0px; */
 }
 
@@ -31,6 +32,10 @@ header {
 
 h1 {
   margin: 0;
+}
+
+h2 {
+  font-family: sans-serif;
 }
 
 nav > ul {
