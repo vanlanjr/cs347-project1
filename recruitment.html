@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recruitment - Epsilon Nu Tau</title>
   <script defer src="js/navlinks.js"></script>
+  <script defer src="js/faqButton.js"></script>
 </head>
 <body>
   
@@ -42,12 +43,70 @@
     <img id="ent-spring-rush" src="images/rush_calendar.png" alt="Spring Rush Calendar">
     <div id="recruitment-video">
       <h3>Rush Video</h3>
-      <video width="700px" height=auto>
+      <video width="700px" height=auto controls>
         <source src="videos/rush_video.mp4" type="video/mp4" alt="Rush Video">
       </video>
     </div>
+    <h3>Frequently Asked Questions</h3>
     <div id="recruitment-faq">
-      <h3>Frequently Asked Questions</h3>
+      <dl class="faq">
+        <dt>
+          <button aria-expanded="false" aria-controls="faq1_desc">
+            What major do you need to be to rush?
+          </button>
+        </dt>
+        <dd>
+          <p id="faq1_desc" class="desc">
+            ENT is open to all majors!
+          </p>
+        </dd>
+        <dt>
+          <button aria-expanded="false" aria-controls="faq2_desc">
+            What if I can't attend any of the meet the brother events? Can I still rush?
+          </button>
+        </dt>
+        <dd>
+          <p id="faq2_desc" class="desc">
+            Yes! Contact the rush chair Megan if you are unable to make any of the 
+            meet the brother events.
+          </p>
+        </dd>
+        <dt>
+          <button aria-expanded="false" aria-controls="faq3_desc">
+            Do you have professional speakers come to talk at events?
+          </button>
+        </dt>
+        <dd>
+          <p id="faq3_desc" class="desc">
+            Yes! This semester we plan to have multiple events with a panel of speakers or multiple 
+            speakers. We are also collaborating with other business organizations to get a panel of
+            JMU alumni to speaker at an event.
+          </p>
+        </dd>
+        <dt>
+          <button aria-expanded="false" aria-controls="faq4_desc">
+            What kind of events does ENT host?
+          </button>
+        </dt>
+        <dd>
+          <p id="faq4_desc" class="desc">
+            We host a variety of events that range from professional events such as a panel of speakers,
+            workshops to better your professionalism, service events, and social events such as a bonfire
+            and formals.
+          </p>
+        </dd>
+        <dt>
+          <button aria-expanded="false" aria-controls="faq5_desc">
+            What events are mandatory?
+          </button>
+        </dt>
+        <dd>
+          <p id="faq5_desc" class="desc">
+            In order to be invited to elevator pitches, you must attend at least two events and 
+            attend speed networking.
+          </p>
+        </dd>
+      </dl>
     </div>
   </main>
 
