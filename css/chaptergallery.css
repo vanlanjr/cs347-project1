@@ -1,0 +1,11 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.chapter-logo {
+  width: 200px;
+  margin: 10px;
+}
