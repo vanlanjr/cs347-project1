@@ -1,3 +1,7 @@
+main {
+  background-color: cadetblue;
+}
+
 #root {
   display: flex;
   flex-direction: row;

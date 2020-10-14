@@ -88,7 +88,6 @@ footer {
 #contact-us, #connect-with-us {
   display: flex;
   flex-direction: column;
-  padding: 5px;
   height: 300px;
   width: 50%;
   justify-content: center;
@@ -100,7 +99,9 @@ footer {
 }
 
 #connect-with-us > h3 {
-  padding: 5px;
+  padding: 0px;
+  margin-block-start: .5em;
+  margin-block-end: .5em;
 }
 
 /* Media Buttons */
@@ -190,5 +191,17 @@ footer {
 
   footer {
     flex-direction: column;
+  }
+
+  #contact-us, #connect-with-us {
+    width: 100%;
+  }
+
+  #social-links {
+    padding: 0px;
+  }
+
+  #contact-us {
+    margin-top: 10px;
   }
 }

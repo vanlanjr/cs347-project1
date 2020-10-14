@@ -1,9 +1,12 @@
+main {
+  background-color: lightsteelblue;
+}
+
 #contacts {
   display: grid;
   grid-template-columns: auto 1fr;
   font-family: sans-serif;
   max-width: 800px;
-  /* margin: 0 auto; */
   gap: 10px 5px;
 }
 
@@ -14,7 +17,6 @@ label {
 #submit {
   grid-column: 2;
   height: 3em;
-  /* justify-self: start; */
 }
 
 #message {
