@@ -7,7 +7,7 @@ main {
 #ent-spring-rush {
   background-size: cover; 
   background-position: center center;
-  max-width: 100%;
+  max-width: 880px;
 }
 
 main > #recruitment-video > video {
@@ -63,4 +63,14 @@ dl.faq button[aria-expanded="false"]::before {
 dl.faq button[aria-expanded="true"]::before {
   content: '\25BC';
   padding-right: 0.35em;
+}
+
+@media (max-width: 880px) {
+  #ent-spring-rush {
+    max-width: 100%;
+  }
+
+  #youtube-video {
+    max-width: 100%;
+  }
 }
