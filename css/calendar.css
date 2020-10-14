@@ -1,6 +1,7 @@
 main {
   background-color: goldenrod;
   display: flexbox;
+  -webkit-column-break-inside: avoid;
 }
 
 #calendar {
