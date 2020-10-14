@@ -64,7 +64,10 @@ dl.faq button[aria-expanded="true"]::before {
     max-width: 100%;
   }
 
-  #youtube-video {
+  main > iframe {
     max-width: 100%;
   }
+  /* #youtube-video {
+    max-width: 100%;
+  } */
 }
