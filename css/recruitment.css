@@ -7,8 +7,13 @@ main {
 #ent-spring-rush {
   background-size: cover; 
   background-position: center center;
-  max-width: 700px;
-  max-height: 400px;
+  max-width: 100%;
+}
+
+main > #recruitment-video > video {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 dl.faq button {
@@ -20,7 +25,6 @@ dl.faq button {
   border: thin solid transparent;
   background-color: black;
   color: white;
-  padding-left: 0.125em;
 }
 
 dl dd {

@@ -1,9 +1,12 @@
 main {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
   background-color: #8ce2de;
+}
+
+body {
+  width: 100%;
 }
 
 #ent-picture-container {

@@ -19,7 +19,6 @@ body {
   align-items: center;
   padding: 20px;
   font-family: sans-serif;
-  /* margin: 0px; */
 }
 
 main, footer {
@@ -108,9 +107,7 @@ footer {
 
 .fa {
   padding: 20px;
-  /* font-size: 30px; */
   width: 15px;
-  /* height: 30px; */
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
