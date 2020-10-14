@@ -10,6 +10,11 @@ main {
   max-width: 880px;
 }
 
+#video-container {
+  max-width: 880px;
+  height: 495px;
+}
+
 dl.faq button {
   margin: 0;
   padding: 0;
@@ -64,10 +69,8 @@ dl.faq button[aria-expanded="true"]::before {
     max-width: 100%;
   }
 
-  main > iframe {
+  #video-container {
     max-width: 100%;
+    max-height: 100%;
   }
-  /* #youtube-video {
-    max-width: 100%;
-  } */
 }
