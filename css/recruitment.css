@@ -10,12 +10,6 @@ main {
   max-width: 880px;
 }
 
-main > #recruitment-video > video {
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
 dl.faq button {
   margin: 0;
   padding: 0;
