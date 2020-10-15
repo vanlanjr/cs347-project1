@@ -19,11 +19,11 @@ dl.faq button {
   margin: 0;
   padding: 0;
   margin-top: 1em;
-  font-weight: bold;
-  font-size: 110%;
+  font-size: 16px;
   border: thin solid transparent;
   background-color: black;
   color: white;
+  font-family: serif;
 }
 
 dl dd {
@@ -36,9 +36,10 @@ dl dd {
 dl.faq .desc {
   margin: 0;
   padding: 0.5em;
-  font-size: 110%;
+  font-size: 16px;
   display: none;
   background-color: darkred;
+  font-family: serif;
 }
 
 dl.faq button:hover,

@@ -25,7 +25,7 @@ main, footer {
   padding: 5px;
 }
 
-header {
+header, h1, h2, h3 {
   font-family: sans-serif;
 }
 
@@ -100,8 +100,6 @@ footer {
 
 #connect-with-us > h3 {
   padding: 0px;
-  margin-block-start: .5em;
-  margin-block-end: .5em;
 }
 
 /* Media Buttons */

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 Report</title>
+  <style>
+    p {
+      text-indent: 2em;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project 1 Report by Jason Vanlandingham</h1>
+  </header>
+  <main>
+    <ol>
+      <li>You will create a website for a client of your choosing. Your client could be a family member, a business, a student group, a friend, an online community, and so on. The only restriction is that the client cannot be just you.</li>
+      <p>My client is a business fraternity on campus that I am apart of.  It is called Epsilon Nu Tau.</p>
+      
+      <li>Your content must be original and not lifted from other websites. Third-party images are acceptable provided you adhere to their license.</li>
+      <p>My content is original and not lifted from other websites. The video and a few photos were provided by my client and were asked to be on the webpage.  The rest of the photos are from the national organization and did not require a license.</p>
+
+      <li>Your site must contain at least five separate pages, each having a meaningful purpose. One of the files should be named index.html, which Apache loads by default.</li>
+      <p>My home page is called index.html. There are four other pages all link on the nav bar. Each page has its own purpose with different information that was asked for by my client.
+        The first page is an introduction of my fraternity and the chapter that I am a member of. The second page is for recruitment of new members and since there is no recruitment this semester they asked for me to use last year's materials.
+        The third page is for the current month's professional events. This month, there are only two events. The fourth page includes information about the other chapters at different universities. The last page is a contact form
+        that can be submitted if there are any questions about the fraternity or chapter.
+      </p>
+      
+      <li>Your site must include some sort of header.</li>
+      <p>My site includes the same header on all webpages which is styled in a shared css file.  The header include my organizations logo and name.</p>
+      
+      <li>Your site must include some sort of navigation links.</li>
+      <p>My site includes nav links on all pages which is styled in a shared css file.</p>
+      
+      
+      <li>Your site must support distinct layouts for large and small screens using media queries. For instance, multicolumn layouts on large screens should be reduced to single column layouts on small screens.</li>
+      <p>My site inlcudes media queries on all pages that allow them to be resize on small windows and mobile. The index page uses column layout on desktop and mobile and fit the screen when the display is small. 
+        For the mobile calendar, HTML renders the page to be the same width as desktop so that all events can be seen for the current month. The recruitment page has a fixed width on large displays and when it shrinks the query changes it to fit the screen 100%. 
+        The other chapters page has a flex display that is set to wrap so no matter the size on the screen it is still uniform. The contact page has a query that will change the locations of the labels when the screen is re-sized so it fits on smaller displays.
+      </p>
+      
+      <li>Your site must maintain a coherent style across its pages. Repeated style rules must be placed in a shared stylesheet. Style rules not shared between pages must be placed in separate stylesheets.</li>
+      <p>The style that is shared amoung all webpages is stored in style.css.  All webpages reference this stylesheet.  Rules that are specific to the main section of the page are stored in seperate css files for each webpage. Each file has a name that is evident to which page it belongs to.</p>
+      
+      <li>Your site must include images, and their alt attributes must adequately describe the image content to users of screen readers, user with images disabled, and webcrawlers.</li>
+      <p>My site includes multiple images. All images and linked videos have alt attributes assigned so that all users can understand the content.</p>
+      
+      <li>Each page must declare its favicon.</li>
+      <p>Each page has a salamander favicon which is the symbol of the fraternity.  Therefore, the favicon is meaningful.</p>
+      
+      <li>Your site’s non-HTML resources must be organized. Images must be placed in a directory named images. CSS files must be placed in a directory named css. JavaScript must be placed in a directory named js.</li>
+      <p>All images, css files, and javascript files are all located in their own directories with the proper names.</p>
+      
+      <li>Your site must not be built using any libraries or frameworks. Do not use Bootstrap, jQuery, React, Angular, Vue, or any other third-party tools. You may, however, reimplement the ideas you see in these third-party tools.</li>
+      <p>My website does not using any extrernal libraries or frameworks listed above. Howver, for the social media icons on the bottom of every page, I am using an external css styling sheet that provides me with the logos 
+        for each of the different social media sites.
+      </p>
+      
+      <li>Each page and stylesheet of your site must validate without any warnings or errors using the W3C’s Nu Validator.</li>
+      <p>Each page and stylesheet was individually check with the validator and there are no warnings or errors on any of them.</p>
+      
+      <li>The content should be neatly aligned. The axes of alignment should be clearly visible. Favor left- and right-alignment over centering—as centering does not produce a strong axis of alignment.</li>
+      <p>The content on each page has a uniformed alignment. On the index/home page, all the information is center aligned because it seemed most friendly for the landing page. On the recruitment, other chapter, and contact us page, 
+        all information is right aligned with the nav links and header. For the events page, the calendar is aligned in the center but the header is still aligned to the right with the page header and navlinks.
+      </p>
+      
+      <li>Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and paragraph copy in a serif font.</li>
+      <p>On my website, all headings are sans-serif font and all paragraphs or large blocks of infromation are serif font.</p>
+      
+      <li>Your site must include at least one form (or informal collection of input elements). The form might submit data to a server or invoke some client-side JavaScript function that alters the page. The action is not specified.</li>
+      <p>The Contact Us page is an input form that includes multiple input elements.  When the submit button is pressed, if there is a valid color in the favorite color input, then the color of the main section of the page will change to that
+        given color. This is the function that alters the page.
+      </p>
+      
+      <li>Your site must include links to external sites.</li>
+      <p>My site includes links to my fraternity's social media accounts.  It also includes an embedded youtube video to last year's rush video that we used at all of our events.</p>
+      
+      <li>Your source code must be readable, using conventional and consistent formatting and meaningful names for classes and IDs.</li>
+      <p>My source code is readable and formatted consistently. Every class an idea is meaningful to what it is representing.</p>
+      
+      <li>Your site must include at least one animation, powered either by CSS or JavaScript.</li>
+      <p>My site has a few animations.  On of them is my navlinks in that when the user clicks off the drop down list when it is in small display mode, the list goes away.  The second animation is the FAQ section on the 
+        recruitment page.  When the user clicks on each question, the description section appears that holds the answer to the question asked.
+      </p>
+      
+      <li>Your site must be stored in a Git repository that you have shared with your instructor. On GitHub, GitLab, and Bitbucket, share with the user twodee.</li>
+      <p>My site is stored in my GitHub repository and I have shared it with my instructor which has been stated in the weekly grade updates.</p>
+      
+      <li>The names of your files must be entirely lowercase and contain only alphanumeric characters.</li>
+      <p>The names of all my files are all lowercase and they only contain alphanumeric characters.</p>
+      
+      <li>Your site must have its own domain name.</li>
+      <p>My site has its own domain name that is project1.jvfunweb.me</p>
+      
+      <li>Your site must be served out over HTTPS on port 443. You are encouraged to use Let’s Encrypt to obtain a free certificate.</li>
+      <p>My site is served out over HTTPS on port 443.</p>
+      
+      <li>Users who access your site over HTTP on port 80 must be automatically redirected to port 443.</li>
+      <p>When a user tries to access on site over HTTP on port 80, they are automatically redirected to port 443.</p>
+      
+      <li>Your Git repository should show a steady flow of commits over the course of the project. Committing and pushing should happen steadily, after each work session, and not just right before the due date.</li>
+      <p>My repository has a steady flow of commits. The first commit was on Sept 23rd and they were commits every 3-6 days after. Later towards the due date, I had to knock out a lot of errors and bugs with the mobile version so I had to commit very small adjustments a lot
+        more frequently to check if my changes fixed the problem so that is why I had a lot of commits the last two days I had to work on the assignment.
+      </p>
+    
+    </ol>
+  </main>
+</body>
+</html>

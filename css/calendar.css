@@ -1,6 +1,5 @@
 main {
   background-color: goldenrod;
-  display: flexbox;
   -webkit-column-break-inside: avoid;
 }
 
@@ -17,11 +16,11 @@ main {
 
 #heading {
   grid-column: 1 / 8;
-  background: url("../images/oct-fall.jpg");
+  background: url("../images/octfall.jpg");
   background-size: cover;
   min-width: 100%;
   min-height: 200px;
-  font-style: serif;
+  font-family: sans-serif;
   font-size: 100px;
   text-align: center;
   color: white;
